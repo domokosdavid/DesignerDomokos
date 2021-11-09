@@ -1,0 +1,45 @@
+form{
+
+    background-color: rgb(233, 233, 233);
+    text-align: center;
+    width: 30%;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 5%;
+
+}
+
+input[type="text"]{
+
+    width: 90%;
+    margin-bottom: 2%;
+    padding: 1%;
+    
+}
+
+input[type="color"]{
+
+    width: 90%;
+    margin-bottom: 2%;
+
+}
+
+button#alaphelyzet{
+
+    margin-bottom: 2%;
+    margin-top: 1%;
+    height: 2em;
+
+}
+
+.container{
+
+    margin-right: auto;
+    margin-left: auto;
+    width: 30%;
+
+}
+
+span{
+    font-size: 19px;
+}

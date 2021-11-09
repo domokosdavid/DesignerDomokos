@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <meta charset='utf-8'>
+
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+
+    <title>UI designer-t segítő alkalmazás</title>
+
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+
+    <script src='main.js'></script>
+
+</head>
+
+<body>
+
+    <form>
+
+        <label id="szovegLabel" for="szoveg">Mintaszöveg:</label><br/>
+        <input type="text" name="szoveg" id="szoveg" onkeyup="szovegFunkcio()"><br/>
+
+        <label for="betumeret">Betűméret:</label><br/>
+        <input type="text" name="betumeret" id="betumeret" onkeyup="betuMeretFunkcio()"><br/>
+
+        <label for="szovegszin">Szövegszín:</label><br/>
+        <input type="color" name="szovegszin" id="szovegszin" oninput="szovegSzinFunkcio()"><br/>
+
+        <label for="szin">Háttérszín:</label><br/>
+        <input type="color" name="szin" id="szin" oninput="hatterSzinFunkcio()"><br/>
+        
+        <button id="alaphelyzet">Alaphelyzet</button>
+
+        <span onclick="ujHozzaad()" class="addBtn">Hozzáad</span>
+
+    </form>
+
+    <div class="container">
+
+        <h2>Előnézet</h2>
+
+        <p id="elonezet"></p>
+
+    </div>
+
+    <ul id="lista">
+
+      </ul>
+
+    
+</body>
+
+</html>
